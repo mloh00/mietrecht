@@ -1,0 +1,379 @@
+[
+    {
+        "question": "Who is Donald Trump?",
+        "answers": [
+            {
+                "Klio/chat": "",
+                "chunks": []
+            },
+            {
+                "nlp/QLoRA/chat": "Donald Trump is the 45th President of the United States.",
+                "chunks": {}
+            },
+            {
+                "nlp/LLM/chat": "\nDonald Trump is a businessman, politician, and television personality who has been the 45th President of the United States since January 2017. He was born in 1946 in Queens, New York City, to parents who were immigrants from Austria and Germany. Trump attended high school at Stuyvesant High School before going on to attend Fordham University for his undergraduate studies. After graduating with honors, he went on to earn a law degree from the George Washington University Law School.\n\nTrump's career began as a real estate developer, starting out by buying up properties in New York City. In the early 1980s, he became involved in the development of casinos and resorts, which led him into the world of gambling. In the late 1980s, he started his own casino company, which eventually grew into a multi-billion dollar empire.\n\nIn 1989, Trump ran for president as a Republican candidate, but lost to Democrat Michael Dukakis. However, he continued to be active in politics, serving as chairman of the Republican National Committee from 1996 until 2000. During this time, he also founded the Trump Organization, which now includes various businesses such as hotels, golf courses, and real estate developments.\n\nIn 2015, Trump announced that he would run for president again, this time as a Republican candidate. His campaign received significant media attention due to his controversial statements and personal life. Despite facing criticism over his past actions and associations, Trump won the election with 304 electoral votes, becoming the 45th President of the United States.",
+                "chunks": {}
+            },
+            {
+                "nlp/RAG/chat": "",
+                "chunks": []
+            }
+        ]
+    },
+    {
+        "question": "Mein Lebenspartner, der Mieter war, ist verstorben. Wir hatten einen gemeinsamen Haushalt geführt. Was passiert nun mit dem Mietverhältnis?",
+        "answers": [
+            {
+                "Klio/chat": "Die Frage kann ohne zusätzliche Informationen beantwortet werden. Nach dem Paragraphen 563a BGB wird das Mietverhältnis beim Tod eines Mieters mit den überlebenden Mietern fortgesetzt.",
+                "chunks": [
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "563",
+                        "referenceText": "",
+                        "score": 0.14108199380268838,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 563 Eintrittsrecht bei Tod des Mieters: (1) Der Ehegatte oder Lebenspartner, der mit dem Mieter einen gemeinsamen Haushalt führt, tritt mit dem Tod des Mieters in das Mietverhältnis ein. (2) Leben in dem gemeinsamen Haushalt Kinder des Mieters, treten diese mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder Lebenspartner eintritt. Andere Familienangehörige, die mit dem Mieter einen gemeinsamen Haushalt führen, treten mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder der Lebenspartner eintritt. Dasselbe gilt für Personen, die mit dem Mieter einen auf Dauer angelegten gemeinsamen Haushalt führen. (3) Erklären eingetretene Personen im Sinne des Absatzes 1 oder 2 innerhalb eines Monats, nachdem sie vom Tod des Mieters Kenntnis erlangt haben, dem Vermieter, dass sie das Mietverhältnis nicht fortsetzen wollen, gilt der Eintritt als nicht erfolgt. Für geschäftsunfähige oder in der Geschäftsfähigkeit beschränkte Personen gilt § 210 entsprechend. Sind mehrere Personen in das Mietverhältnis eingetreten, so kann jeder die Erklärung für sich abgeben. (4) Der Vermieter kann das Mietverhältnis innerhalb eines Monats, nachdem er von dem endgültigen Eintritt in das Mietverhältnis Kenntnis erlangt hat, außerordentlich mit der gesetzlichen Frist kündigen, wenn in der Person des Eingetretenen ein wichtiger Grund vorliegt. (5) Eine abweichende Vereinbarung zum Nachteil des Mieters oder solcher Personen, die nach Absatz 1 oder 2 eintrittsberechtigt sind, ist unwirksam.",
+                        "title": "§ 563 Eintrittsrecht bei Tod des Mieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "562d",
+                        "referenceText": "",
+                        "score": 0.15038194593857046,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 562d Pfändung durch Dritte: 1 Wird eine Sache, die dem Pfandrecht des Vermieters unterliegt, für einen anderen Gläubiger gepfändet, so kann diesem gegenüber das Pfandrecht nicht wegen der Miete für eine frühere Zeit als das letzte Jahr vor der Pfändung geltend gemacht werden. Kapitel 4: Wechsel der Vertragsparteien § 563 Eintrittsrecht bei Tod des Mieters (1) 1 Der Ehegatte, der mit dem Mieter einen gemeinsamen Haushalt führt, tritt mit dem Tod des Mieters in das Mietverhältnis ein. 2 Dasselbe gilt für den Lebenspartner. (2) 1 Leben in dem gemeinsamen Haushalt Kinder des Mieters, treten diese mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte eintritt. 2 Der Eintritt des Lebenspartners bleibt vom Eintritt der Kinder des Mieters unberührt. 3 Andere Familienangehörige, die mit dem Mieter einen gemeinsamen Haushalt führen, treten mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder der Lebenspartner eintritt. 4 Dasselbe gilt für Personen, die mit dem Mieter einen auf Dauer angelegten gemeinsamen Haushalt führen. (3) 1 Erklären eingetretene Personen im Sinne des Absatzes 1 oder 2 innerhalb eines Monats, nachdem sie vom Tod des Mieters Kenntnis erlangt haben, dem Vermieter, dass sie das Mietverhältnis nicht fortsetzen wollen, gilt der Eintritt als nicht erfolgt. 2 Für geschäftsunfähige oder in der Geschäftsfähigkeit beschränkte Personen gilt § 210 entsprechend. 3 Sind mehrere Personen in das Mietverhältnis eingetreten, so kann jeder die Erklärung für sich abgeben. (4) 1 Der Vermieter kann das Mietverhältnis innerhalb eines Monats, nachdem er von dem endgültigen Eintritt in das Mietverhältnis Kenntnis erlangt hat, außerordentlich mit der gesetzlichen Frist kündigen, wenn in der Person des Eingetretenen ein wichtiger Grund vorliegt. (5) 1 Eine abweichende Vereinbarung zum Nachteil des Mieters oder solcher Personen, die nach Absatz 1 oder 2 eintrittsberechtigt sind, ist unwirksam.",
+                        "title": "§ 562d Pfändung durch Dritte"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "563a",
+                        "referenceText": "",
+                        "score": 0.15229411093511935,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 563a Fortsetzung mit überlebenden Mietern: (1) 1 Sind mehrere Personen im Sinne des § 563 gemeinsam Mieter, so wird das Mietverhältnis beim Tod eines Mieters mit den überlebenden Mietern fortgesetzt. (2) 1 Die überlebenden Mieter können das Mietverhältnis innerhalb eines Monats, nachdem sie vom Tod des Mieters Kenntnis erlangt haben, außerordentlich mit der gesetzlichen Frist kündigen. (3) 1 Eine abweichende Vereinbarung zum Nachteil der Mieter ist unwirksam.",
+                        "title": "§ 563a Fortsetzung mit überlebenden Mietern"
+                    }
+                ]
+            },
+            {
+                "nlp/QLoRA/chat": "Die Frage kann ohne zusätzliche Informationen beantwortet werden. Nach den in der Beschreibung bereitgestellten Informationen wird festgelegt, dass das Mietverhältnis nicht mehr existieren muss und somit keine weiteren Schritte erforderlich sind.",
+                "chunks": {}
+            },
+            {
+                "nlp/LLM/chat": "Die Frage kann ohne zusätzliche Informationen beantwortet werden. Nach den in der Beschreibung bereitgestellten Informationen wird festgelegt, dass das Mietverhältnis nicht mehr existieren muss und somit keine spezifischen Schritte zur Behandlung des Konflikts erforderlich sind.",
+                "chunks": {}
+            },
+            {
+                "nlp/RAG/chat": "Die Frage bezieht sich auf den Paragraphen 563a des BGB und geht um die Fortsetzung des Mietverhältnisses bei Überlebender.",
+                "chunks": [
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "563",
+                        "referenceText": "",
+                        "score": 0.14108199380268838,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 563 Eintrittsrecht bei Tod des Mieters: (1) Der Ehegatte oder Lebenspartner, der mit dem Mieter einen gemeinsamen Haushalt führt, tritt mit dem Tod des Mieters in das Mietverhältnis ein. (2) Leben in dem gemeinsamen Haushalt Kinder des Mieters, treten diese mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder Lebenspartner eintritt. Andere Familienangehörige, die mit dem Mieter einen gemeinsamen Haushalt führen, treten mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder der Lebenspartner eintritt. Dasselbe gilt für Personen, die mit dem Mieter einen auf Dauer angelegten gemeinsamen Haushalt führen. (3) Erklären eingetretene Personen im Sinne des Absatzes 1 oder 2 innerhalb eines Monats, nachdem sie vom Tod des Mieters Kenntnis erlangt haben, dem Vermieter, dass sie das Mietverhältnis nicht fortsetzen wollen, gilt der Eintritt als nicht erfolgt. Für geschäftsunfähige oder in der Geschäftsfähigkeit beschränkte Personen gilt § 210 entsprechend. Sind mehrere Personen in das Mietverhältnis eingetreten, so kann jeder die Erklärung für sich abgeben. (4) Der Vermieter kann das Mietverhältnis innerhalb eines Monats, nachdem er von dem endgültigen Eintritt in das Mietverhältnis Kenntnis erlangt hat, außerordentlich mit der gesetzlichen Frist kündigen, wenn in der Person des Eingetretenen ein wichtiger Grund vorliegt. (5) Eine abweichende Vereinbarung zum Nachteil des Mieters oder solcher Personen, die nach Absatz 1 oder 2 eintrittsberechtigt sind, ist unwirksam.",
+                        "title": "§ 563 Eintrittsrecht bei Tod des Mieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "562d",
+                        "referenceText": "",
+                        "score": 0.15038194593857046,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 562d Pfändung durch Dritte: 1 Wird eine Sache, die dem Pfandrecht des Vermieters unterliegt, für einen anderen Gläubiger gepfändet, so kann diesem gegenüber das Pfandrecht nicht wegen der Miete für eine frühere Zeit als das letzte Jahr vor der Pfändung geltend gemacht werden. Kapitel 4: Wechsel der Vertragsparteien § 563 Eintrittsrecht bei Tod des Mieters (1) 1 Der Ehegatte, der mit dem Mieter einen gemeinsamen Haushalt führt, tritt mit dem Tod des Mieters in das Mietverhältnis ein. 2 Dasselbe gilt für den Lebenspartner. (2) 1 Leben in dem gemeinsamen Haushalt Kinder des Mieters, treten diese mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte eintritt. 2 Der Eintritt des Lebenspartners bleibt vom Eintritt der Kinder des Mieters unberührt. 3 Andere Familienangehörige, die mit dem Mieter einen gemeinsamen Haushalt führen, treten mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder der Lebenspartner eintritt. 4 Dasselbe gilt für Personen, die mit dem Mieter einen auf Dauer angelegten gemeinsamen Haushalt führen. (3) 1 Erklären eingetretene Personen im Sinne des Absatzes 1 oder 2 innerhalb eines Monats, nachdem sie vom Tod des Mieters Kenntnis erlangt haben, dem Vermieter, dass sie das Mietverhältnis nicht fortsetzen wollen, gilt der Eintritt als nicht erfolgt. 2 Für geschäftsunfähige oder in der Geschäftsfähigkeit beschränkte Personen gilt § 210 entsprechend. 3 Sind mehrere Personen in das Mietverhältnis eingetreten, so kann jeder die Erklärung für sich abgeben. (4) 1 Der Vermieter kann das Mietverhältnis innerhalb eines Monats, nachdem er von dem endgültigen Eintritt in das Mietverhältnis Kenntnis erlangt hat, außerordentlich mit der gesetzlichen Frist kündigen, wenn in der Person des Eingetretenen ein wichtiger Grund vorliegt. (5) 1 Eine abweichende Vereinbarung zum Nachteil des Mieters oder solcher Personen, die nach Absatz 1 oder 2 eintrittsberechtigt sind, ist unwirksam.",
+                        "title": "§ 562d Pfändung durch Dritte"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "563a",
+                        "referenceText": "",
+                        "score": 0.15229411093511935,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 563a Fortsetzung mit überlebenden Mietern: (1) 1 Sind mehrere Personen im Sinne des § 563 gemeinsam Mieter, so wird das Mietverhältnis beim Tod eines Mieters mit den überlebenden Mietern fortgesetzt. (2) 1 Die überlebenden Mieter können das Mietverhältnis innerhalb eines Monats, nachdem sie vom Tod des Mieters Kenntnis erlangt haben, außerordentlich mit der gesetzlichen Frist kündigen. (3) 1 Eine abweichende Vereinbarung zum Nachteil der Mieter ist unwirksam.",
+                        "title": "§ 563a Fortsetzung mit überlebenden Mietern"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "question": "Wann kann mein Vermieter den Mietvertrag kündigen?",
+        "answers": [
+            {
+                "Klio/chat": "Die Frage bezieht sich auf den Paragraphen 576 des BGB, der besagt, dass der Vermieter den Mietvertrag kündigen kann, wenn der Wohnraum mit Rücksicht auf das Bestehen eines Dienstverhältnisses vermietet wurde und die Frist für die Kündigung spätestens am dritten Werktag eines Kalendermonats zum Ablauf des übernächsten Monats liegt.",
+                "chunks": [
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "576",
+                        "referenceText": "",
+                        "score": 0.1430384243580598,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 576 Fristen der ordentlichen Kündigung bei Werkmietwohnungen: (1) 1 Ist Wohnraum mit Rücksicht auf das Bestehen eines Dienstverhältnisses vermietet, so kann der Vermieter nach Beendigung des Dienstverhältnisses abweichend von § 573 c Abs. 1 Satz 2 mit folgenden Fristen kündigen: 1. bei Wohnraum, der dem Mieter weniger als zehn Jahre überlassen war, spätestens am dritten Werktag eines Kalendermonats zum Ablauf des übernächsten Monats, wenn der Wohnraum für einen anderen zur Dienstleistung Verpflichteten benötigt wird; 2. spätestens am dritten Werktag eines Kalendermonats zum Ablauf dieses Monats, wenn das Dienstverhältnis seiner Art nach die Überlassung von Wohnraum erfordert hat, der in unmittelbarer Beziehung oder Nähe zur Arbeitsstätte steht, und der Wohnraum aus dem gleichen Grund für einen anderen zur Dienstleistung Verpflichteten benötigt wird. (2) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 576 Fristen der ordentlichen Kündigung bei Werkmietwohnungen"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "542",
+                        "referenceText": "",
+                        "score": 0.14594331942760885,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 542 Ende des Mietverhältnisses: (1) 1 Ist die Mietzeit nicht bestimmt, so kann jede Vertragspartei das Mietverhältnis nach den gesetzlichen Vorschriften kündigen. (2) 1 Ein Mietverhältnis, das auf bestimmte Zeit eingegangen ist, endet mit dem Ablauf dieser Zeit, sofern es nicht 1. in den gesetzlich zugelassenen Fällen außerordentlich gekündigt oder 2. verlängert wird.",
+                        "title": "§ 542 Ende des Mietverhältnisses"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "575",
+                        "referenceText": "",
+                        "score": 0.14657680408148788,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 575 Zeitmietvertrag: (1) 1 Ein Mietverhältnis kann auf bestimmte Zeit eingegangen werden, wenn der Vermieter nach Ablauf der Mietzeit 1. die Räume als Wohnung für sich, seine Familienangehörigen oder Angehörige seines Haushalts nutzen will, 2. in zulässiger Weise die Räume beseitigen oder so wesentlich verändern oder instand setzen will, dass die Maßnahmen durch eine Fortsetzung des Mietverhältnisses erheblich erschwert würden, oder 3. die Räume an einen zur Dienstleistung Verpflichteten vermieten will und er dem Mieter den Grund der Befristung bei Vertragsschluss schriftlich mitteilt. 2 Anderenfalls gilt das Mietverhältnis als auf unbestimmte Zeit abgeschlossen. (2) 1 Der Mieter kann vom Vermieter frühestens vier Monate vor Ablauf der Befristung verlangen, dass dieser ihm binnen eines Monats mitteilt, ob der Befristungsgrund noch besteht. 2 Erfolgt die Mitteilung später, so kann der Mieter eine Verlängerung des Mietverhältnisses um den Zeitraum der Verspätung verlangen. (3) 1 Tritt der Grund der Befristung erst später ein, so kann der Mieter eine Verlängerung des Mietverhältnisses um einen entsprechenden Zeitraum verlangen. 2 Entfällt der Grund, so kann der Mieter eine Verlängerung auf unbestimmte Zeit verlangen. 3 Die Beweislast für den Eintritt des Befristungsgrundes und die Dauer der Verzögerung trifft den Vermieter. (4) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 575 Zeitmietvertrag"
+                    }
+                ]
+            },
+            {
+                "nlp/QLoRA/chat": "Die Frage kann mit den in der Beschreibung bereitgestellten Informationen beantwortet werden.",
+                "chunks": {}
+            },
+            {
+                "nlp/LLM/chat": "Die Frage bezieht sich auf die allgemeine Informationen über Kündigungsfristen und Rücktrittsgründe bei Vermieter-Mitgliedern. Die Antwort lautet: \"Die Frage kann mit den in der Beschreibung bereitgestellten Informationen beantwortet werden.\"",
+                "chunks": {}
+            },
+            {
+                "nlp/RAG/chat": "Die Frage bezieht sich auf den Paragraphen 576 des BGB, der besagt, dass der Vermieter den Mietvertrag kündigen kann, wenn der Wohnraum mit Rücksicht auf das Bestehen eines Dienstverhältnisses vermietet wurde und die Frist angibt.",
+                "chunks": [
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "576",
+                        "referenceText": "",
+                        "score": 0.1430384243580598,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 576 Fristen der ordentlichen Kündigung bei Werkmietwohnungen: (1) 1 Ist Wohnraum mit Rücksicht auf das Bestehen eines Dienstverhältnisses vermietet, so kann der Vermieter nach Beendigung des Dienstverhältnisses abweichend von § 573 c Abs. 1 Satz 2 mit folgenden Fristen kündigen: 1. bei Wohnraum, der dem Mieter weniger als zehn Jahre überlassen war, spätestens am dritten Werktag eines Kalendermonats zum Ablauf des übernächsten Monats, wenn der Wohnraum für einen anderen zur Dienstleistung Verpflichteten benötigt wird; 2. spätestens am dritten Werktag eines Kalendermonats zum Ablauf dieses Monats, wenn das Dienstverhältnis seiner Art nach die Überlassung von Wohnraum erfordert hat, der in unmittelbarer Beziehung oder Nähe zur Arbeitsstätte steht, und der Wohnraum aus dem gleichen Grund für einen anderen zur Dienstleistung Verpflichteten benötigt wird. (2) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 576 Fristen der ordentlichen Kündigung bei Werkmietwohnungen"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "542",
+                        "referenceText": "",
+                        "score": 0.14594331942760885,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 542 Ende des Mietverhältnisses: (1) 1 Ist die Mietzeit nicht bestimmt, so kann jede Vertragspartei das Mietverhältnis nach den gesetzlichen Vorschriften kündigen. (2) 1 Ein Mietverhältnis, das auf bestimmte Zeit eingegangen ist, endet mit dem Ablauf dieser Zeit, sofern es nicht 1. in den gesetzlich zugelassenen Fällen außerordentlich gekündigt oder 2. verlängert wird.",
+                        "title": "§ 542 Ende des Mietverhältnisses"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "575",
+                        "referenceText": "",
+                        "score": 0.14657680408148788,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 575 Zeitmietvertrag: (1) 1 Ein Mietverhältnis kann auf bestimmte Zeit eingegangen werden, wenn der Vermieter nach Ablauf der Mietzeit 1. die Räume als Wohnung für sich, seine Familienangehörigen oder Angehörige seines Haushalts nutzen will, 2. in zulässiger Weise die Räume beseitigen oder so wesentlich verändern oder instand setzen will, dass die Maßnahmen durch eine Fortsetzung des Mietverhältnisses erheblich erschwert würden, oder 3. die Räume an einen zur Dienstleistung Verpflichteten vermieten will und er dem Mieter den Grund der Befristung bei Vertragsschluss schriftlich mitteilt. 2 Anderenfalls gilt das Mietverhältnis als auf unbestimmte Zeit abgeschlossen. (2) 1 Der Mieter kann vom Vermieter frühestens vier Monate vor Ablauf der Befristung verlangen, dass dieser ihm binnen eines Monats mitteilt, ob der Befristungsgrund noch besteht. 2 Erfolgt die Mitteilung später, so kann der Mieter eine Verlängerung des Mietverhältnisses um den Zeitraum der Verspätung verlangen. (3) 1 Tritt der Grund der Befristung erst später ein, so kann der Mieter eine Verlängerung des Mietverhältnisses um einen entsprechenden Zeitraum verlangen. 2 Entfällt der Grund, so kann der Mieter eine Verlängerung auf unbestimmte Zeit verlangen. 3 Die Beweislast für den Eintritt des Befristungsgrundes und die Dauer der Verzögerung trifft den Vermieter. (4) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 575 Zeitmietvertrag"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "question": "Darf ich meine Wohnung untervermieten?",
+        "answers": [
+            {
+                "Klio/chat": "Ja, Sie können Ihre Wohnung untervermieten.",
+                "chunks": [
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "577",
+                        "referenceText": "",
+                        "score": 0.16306042508964846,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 577 Vorkaufsrecht des Mieters: (1) 1 Werden vermietete Wohnräume, an denen nach der Überlassung an den Mieter Wohnungseigentum begründet worden ist oder begründet werden soll, an einen Dritten verkauft, so ist der Mieter zum Vorkauf berechtigt. 2 Dies gilt nicht, wenn der Vermieter die Wohnräume an einen Familienangehörigen oder an einen Angehörigen seines Haushalts verkauft. 3 Soweit sich nicht aus den nachfolgenden Absätzen etwas anderes ergibt, finden auf das Vorkaufsrecht die Vorschriften über den Vorkauf Anwendung. (2) 1 Die Mitteilung des Verkäufers oder des Dritten über den Inhalt des Kaufvertrags ist mit einer Unterrichtung des Mieters über sein Vorkaufsrecht zu verbinden. (3) 1 Die Ausübung des Vorkaufsrechts erfolgt durch schriftliche Erklärung des Mieters gegenüber dem Verkäufer. (4) 1 Stirbt der Mieter, so geht das Vorkaufsrecht auf diejenigen über, die in das Mietverhältnis nach § 563 Abs. 1 oder 2 eintreten. (5) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 577 Vorkaufsrecht des Mieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "573a",
+                        "referenceText": "",
+                        "score": 0.1656602070398111,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 573a Erleichterte Kündigung des Vermieters: (1) 1 Ein Mietverhältnis über eine Wohnung in einem vom Vermieter selbst bewohnten Gebäude mit nicht mehr als zwei Wohnungen kann der Vermieter auch kündigen, ohne dass es eines berechtigten Interesses im Sinne des § 573 bedarf. 2 Die Kündigungsfrist verlängert sich in diesem Fall um drei Monate. (2) 1 Absatz 1 gilt entsprechend für Wohnraum innerhalb der vom Vermieter selbst bewohnten Wohnung, sofern der Wohnraum nicht nach § 549 Abs. 2 Nr. 2 vom Mieterschutz ausgenommen ist. (3) 1 In dem Kündigungsschreiben ist anzugeben, dass die Kündigung auf die Voraussetzungen des Absatzes 1 oder 2 gestützt wird. (4) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam",
+                        "title": "§ 573a Erleichterte Kündigung des Vermieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "551",
+                        "referenceText": "",
+                        "score": 0.16569175930113145,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 551 Begrenzung und Anlage von Mietsicherheiten: (1) 1 Hat der Mieter dem Vermieter für die Erfüllung seiner Pflichten Sicherheit zu leisten, so darf diese vorbehaltlich des Absatzes 3 Satz 4 höchstens das Dreifache der auf einen Monat entfallenden Miete ohne die als Pauschale oder als Vorauszahlung ausgewiesenen Betriebskosten betragen. (2) 1 Ist als Sicherheit eine Geldsumme bereitzustellen, so ist der Mieter zu drei gleichen monatlichen Teilzahlungen berechtigt. 2 Die erste Teilzahlung ist zu Beginn des Mietverhältnisses fällig. (3) 1 Der Vermieter hat eine ihm als Sicherheit überlassene Geldsumme bei einem Kreditinstitut zu dem für Spareinlagen mit dreimonatiger Kündigungsfrist üblichen Zinssatz anzulegen. 2 Die Vertragsparteien können eine andere Anlageform vereinbaren. 3 In beiden Fällen muss die Anlage vom Vermögen des Vermieters getrennt erfolgen und stehen die Erträge dem Mieter zu. 4 Sie erhöhen die Sicherheit. 5 Bei Wohnraum in einem Studenten- oder Jugendwohnheim besteht für den Vermieter keine Pflicht, die Sicherheitsleistung zu verzinsen. (4) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 551 Begrenzung und Anlage von Mietsicherheiten"
+                    }
+                ]
+            },
+            {
+                "nlp/QLoRA/chat": "Die Frage kann mit den in der Beschreibung bereitgestellten Informationen beantwortet werden. Nach dem in der Beschreibung bereitgestellten Paar wird die Frage nicht direkt beantwortet, da sie sich auf eine spezifische Situation bezieht und keine allgemeingültigen Regelungen für alle Verwendungsarten des Untervermietens gibt.",
+                "chunks": {}
+            },
+            {
+                "nlp/LLM/chat": "Ja, Sie können Ihre Wohnung untervermieten.",
+                "chunks": {}
+            },
+            {
+                "nlp/RAG/chat": "Ja, Sie haben das Recht, Ihre Wohnung unter Verwendung des Paragraphen 577 BGB zu verlassen.",
+                "chunks": [
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "577",
+                        "referenceText": "",
+                        "score": 0.16306042508964846,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 577 Vorkaufsrecht des Mieters: (1) 1 Werden vermietete Wohnräume, an denen nach der Überlassung an den Mieter Wohnungseigentum begründet worden ist oder begründet werden soll, an einen Dritten verkauft, so ist der Mieter zum Vorkauf berechtigt. 2 Dies gilt nicht, wenn der Vermieter die Wohnräume an einen Familienangehörigen oder an einen Angehörigen seines Haushalts verkauft. 3 Soweit sich nicht aus den nachfolgenden Absätzen etwas anderes ergibt, finden auf das Vorkaufsrecht die Vorschriften über den Vorkauf Anwendung. (2) 1 Die Mitteilung des Verkäufers oder des Dritten über den Inhalt des Kaufvertrags ist mit einer Unterrichtung des Mieters über sein Vorkaufsrecht zu verbinden. (3) 1 Die Ausübung des Vorkaufsrechts erfolgt durch schriftliche Erklärung des Mieters gegenüber dem Verkäufer. (4) 1 Stirbt der Mieter, so geht das Vorkaufsrecht auf diejenigen über, die in das Mietverhältnis nach § 563 Abs. 1 oder 2 eintreten. (5) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 577 Vorkaufsrecht des Mieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "573a",
+                        "referenceText": "",
+                        "score": 0.1656602070398111,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 573a Erleichterte Kündigung des Vermieters: (1) 1 Ein Mietverhältnis über eine Wohnung in einem vom Vermieter selbst bewohnten Gebäude mit nicht mehr als zwei Wohnungen kann der Vermieter auch kündigen, ohne dass es eines berechtigten Interesses im Sinne des § 573 bedarf. 2 Die Kündigungsfrist verlängert sich in diesem Fall um drei Monate. (2) 1 Absatz 1 gilt entsprechend für Wohnraum innerhalb der vom Vermieter selbst bewohnten Wohnung, sofern der Wohnraum nicht nach § 549 Abs. 2 Nr. 2 vom Mieterschutz ausgenommen ist. (3) 1 In dem Kündigungsschreiben ist anzugeben, dass die Kündigung auf die Voraussetzungen des Absatzes 1 oder 2 gestützt wird. (4) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam",
+                        "title": "§ 573a Erleichterte Kündigung des Vermieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "551",
+                        "referenceText": "",
+                        "score": 0.16569175930113145,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 551 Begrenzung und Anlage von Mietsicherheiten: (1) 1 Hat der Mieter dem Vermieter für die Erfüllung seiner Pflichten Sicherheit zu leisten, so darf diese vorbehaltlich des Absatzes 3 Satz 4 höchstens das Dreifache der auf einen Monat entfallenden Miete ohne die als Pauschale oder als Vorauszahlung ausgewiesenen Betriebskosten betragen. (2) 1 Ist als Sicherheit eine Geldsumme bereitzustellen, so ist der Mieter zu drei gleichen monatlichen Teilzahlungen berechtigt. 2 Die erste Teilzahlung ist zu Beginn des Mietverhältnisses fällig. (3) 1 Der Vermieter hat eine ihm als Sicherheit überlassene Geldsumme bei einem Kreditinstitut zu dem für Spareinlagen mit dreimonatiger Kündigungsfrist üblichen Zinssatz anzulegen. 2 Die Vertragsparteien können eine andere Anlageform vereinbaren. 3 In beiden Fällen muss die Anlage vom Vermögen des Vermieters getrennt erfolgen und stehen die Erträge dem Mieter zu. 4 Sie erhöhen die Sicherheit. 5 Bei Wohnraum in einem Studenten- oder Jugendwohnheim besteht für den Vermieter keine Pflicht, die Sicherheitsleistung zu verzinsen. (4) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 551 Begrenzung und Anlage von Mietsicherheiten"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "question": "Darf ich meine Haustiere in der Wohnung halten?",
+        "answers": [
+            {
+                "Klio/chat": "Ja, Sie können Ihr Haustier in der Wohnung halten.",
+                "chunks": [
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "573a",
+                        "referenceText": "",
+                        "score": 0.1761313907946518,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 573a Erleichterte Kündigung des Vermieters: (1) 1 Ein Mietverhältnis über eine Wohnung in einem vom Vermieter selbst bewohnten Gebäude mit nicht mehr als zwei Wohnungen kann der Vermieter auch kündigen, ohne dass es eines berechtigten Interesses im Sinne des § 573 bedarf. 2 Die Kündigungsfrist verlängert sich in diesem Fall um drei Monate. (2) 1 Absatz 1 gilt entsprechend für Wohnraum innerhalb der vom Vermieter selbst bewohnten Wohnung, sofern der Wohnraum nicht nach § 549 Abs. 2 Nr. 2 vom Mieterschutz ausgenommen ist. (3) 1 In dem Kündigungsschreiben ist anzugeben, dass die Kündigung auf die Voraussetzungen des Absatzes 1 oder 2 gestützt wird. (4) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam",
+                        "title": "§ 573a Erleichterte Kündigung des Vermieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "563",
+                        "referenceText": "",
+                        "score": 0.1764556883720645,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 563 Eintrittsrecht bei Tod des Mieters: (1) Der Ehegatte oder Lebenspartner, der mit dem Mieter einen gemeinsamen Haushalt führt, tritt mit dem Tod des Mieters in das Mietverhältnis ein. (2) Leben in dem gemeinsamen Haushalt Kinder des Mieters, treten diese mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder Lebenspartner eintritt. Andere Familienangehörige, die mit dem Mieter einen gemeinsamen Haushalt führen, treten mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder der Lebenspartner eintritt. Dasselbe gilt für Personen, die mit dem Mieter einen auf Dauer angelegten gemeinsamen Haushalt führen. (3) Erklären eingetretene Personen im Sinne des Absatzes 1 oder 2 innerhalb eines Monats, nachdem sie vom Tod des Mieters Kenntnis erlangt haben, dem Vermieter, dass sie das Mietverhältnis nicht fortsetzen wollen, gilt der Eintritt als nicht erfolgt. Für geschäftsunfähige oder in der Geschäftsfähigkeit beschränkte Personen gilt § 210 entsprechend. Sind mehrere Personen in das Mietverhältnis eingetreten, so kann jeder die Erklärung für sich abgeben. (4) Der Vermieter kann das Mietverhältnis innerhalb eines Monats, nachdem er von dem endgültigen Eintritt in das Mietverhältnis Kenntnis erlangt hat, außerordentlich mit der gesetzlichen Frist kündigen, wenn in der Person des Eingetretenen ein wichtiger Grund vorliegt. (5) Eine abweichende Vereinbarung zum Nachteil des Mieters oder solcher Personen, die nach Absatz 1 oder 2 eintrittsberechtigt sind, ist unwirksam.",
+                        "title": "§ 563 Eintrittsrecht bei Tod des Mieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "554",
+                        "referenceText": "",
+                        "score": 0.17652140845437103,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 554 Duldung von Erhaltungs- und Modernisierungsmaßnahmen: (1) 1 Der Mieter hat Maßnahmen zu dulden, die zur Erhaltung der Mietsache erforderlich sind. (2) 1 Maßnahmen zur Verbesserung der Mietsache, zur Einsparung von Energie oder Wasser oder zur Schaffung neuen Wohnraums hat der Mieter zu dulden. 2 Dies gilt nicht, wenn die Maßnahme für ihn, seine Familie oder einen anderen Angehörigen seines Haushalts eine Härte bedeuten würde, die auch unter Würdigung der berechtigten Interessen des Vermieters und anderer Mieter in dem Gebäude nicht zu rechtfertigen ist. 3 Dabei sind insbesondere die vorzunehmenden Arbeiten, die baulichen Folgen, vorausgegangene Aufwendungen des Mieters und die zu erwartende Mieterhöhung zu berücksichtigen. 4 Die zu erwartende Mieterhöhung ist nicht als Härte anzusehen, wenn die Mietsache lediglich in einen Zustand versetzt wird, wie er allgemein üblich ist. (3) 1 Bei Maßnahmen nach Absatz 2 Satz 1 hat der Vermieter dem Mieter spätestens drei Monate vor Beginn der Maßnahme deren Art sowie voraussichtlichen Umfang und Beginn, voraussichtliche Dauer und die zu erwartende Mieterhöhung in Textform mitzuteilen. 2 Der Mieter ist berechtigt, bis zum Ablauf des Monats, der auf den Zugang der Mitteilung folgt, außerordentlich zum Ablauf des nächsten Monats zu kündigen. 3 Diese Vorschriften gelten nicht bei Maßnahmen, die nur mit einer unerheblichen Einwirkung auf die vermieteten Räume verbunden sind und nur zu einer unerheblichen Mieterhöhung führen. (4) 1 Aufwendungen, die der Mieter infolge einer Maßnahme nach Absatz 1 oder 2 Satz 1 machen musste, hat der Vermieter in angemessenem Umfang zu ersetzen. 2 Auf Verlangen hat er Vorschuss zu leisten. (5) 1 Eine zum Nachteil des Mieters von den Absätzen 2 bis 4 abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 554 Duldung von Erhaltungs- und Modernisierungsmaßnahmen"
+                    }
+                ]
+            },
+            {
+                "nlp/QLoRA/chat": "Die Frage kann mit den in der Beschreibung bereitgestellten Informationen beantwortet werden. Nach dem in der Beschreibung bereitgestellten Paar wird die Antwort auf \"Darf ich meine Hautei in der Wohnung halten?\" laut: Ja, Sie können Ihre Hauteien in der Wohnung halten.\"",
+                "chunks": {}
+            },
+            {
+                "nlp/LLM/chat": "Ja, Sie können Ihre Haustiere in der Wohnung halten.",
+                "chunks": {}
+            },
+            {
+                "nlp/RAG/chat": "Ja, Sie können Ihren Wohnwagen in der Wohnung halten.",
+                "chunks": [
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "573a",
+                        "referenceText": "",
+                        "score": 0.1761313907946518,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 573a Erleichterte Kündigung des Vermieters: (1) 1 Ein Mietverhältnis über eine Wohnung in einem vom Vermieter selbst bewohnten Gebäude mit nicht mehr als zwei Wohnungen kann der Vermieter auch kündigen, ohne dass es eines berechtigten Interesses im Sinne des § 573 bedarf. 2 Die Kündigungsfrist verlängert sich in diesem Fall um drei Monate. (2) 1 Absatz 1 gilt entsprechend für Wohnraum innerhalb der vom Vermieter selbst bewohnten Wohnung, sofern der Wohnraum nicht nach § 549 Abs. 2 Nr. 2 vom Mieterschutz ausgenommen ist. (3) 1 In dem Kündigungsschreiben ist anzugeben, dass die Kündigung auf die Voraussetzungen des Absatzes 1 oder 2 gestützt wird. (4) 1 Eine zum Nachteil des Mieters abweichende Vereinbarung ist unwirksam",
+                        "title": "§ 573a Erleichterte Kündigung des Vermieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "563",
+                        "referenceText": "",
+                        "score": 0.1764556883720645,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 563 Eintrittsrecht bei Tod des Mieters: (1) Der Ehegatte oder Lebenspartner, der mit dem Mieter einen gemeinsamen Haushalt führt, tritt mit dem Tod des Mieters in das Mietverhältnis ein. (2) Leben in dem gemeinsamen Haushalt Kinder des Mieters, treten diese mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder Lebenspartner eintritt. Andere Familienangehörige, die mit dem Mieter einen gemeinsamen Haushalt führen, treten mit dem Tod des Mieters in das Mietverhältnis ein, wenn nicht der Ehegatte oder der Lebenspartner eintritt. Dasselbe gilt für Personen, die mit dem Mieter einen auf Dauer angelegten gemeinsamen Haushalt führen. (3) Erklären eingetretene Personen im Sinne des Absatzes 1 oder 2 innerhalb eines Monats, nachdem sie vom Tod des Mieters Kenntnis erlangt haben, dem Vermieter, dass sie das Mietverhältnis nicht fortsetzen wollen, gilt der Eintritt als nicht erfolgt. Für geschäftsunfähige oder in der Geschäftsfähigkeit beschränkte Personen gilt § 210 entsprechend. Sind mehrere Personen in das Mietverhältnis eingetreten, so kann jeder die Erklärung für sich abgeben. (4) Der Vermieter kann das Mietverhältnis innerhalb eines Monats, nachdem er von dem endgültigen Eintritt in das Mietverhältnis Kenntnis erlangt hat, außerordentlich mit der gesetzlichen Frist kündigen, wenn in der Person des Eingetretenen ein wichtiger Grund vorliegt. (5) Eine abweichende Vereinbarung zum Nachteil des Mieters oder solcher Personen, die nach Absatz 1 oder 2 eintrittsberechtigt sind, ist unwirksam.",
+                        "title": "§ 563 Eintrittsrecht bei Tod des Mieters"
+                    },
+                    {
+                        "documentID": "",
+                        "lang": "de",
+                        "link": "",
+                        "origin": "",
+                        "paragraph": "554",
+                        "referenceText": "",
+                        "score": 0.17652140845437103,
+                        "text": "Das ist die Beschreibung zum Paragraphen § 554 Duldung von Erhaltungs- und Modernisierungsmaßnahmen: (1) 1 Der Mieter hat Maßnahmen zu dulden, die zur Erhaltung der Mietsache erforderlich sind. (2) 1 Maßnahmen zur Verbesserung der Mietsache, zur Einsparung von Energie oder Wasser oder zur Schaffung neuen Wohnraums hat der Mieter zu dulden. 2 Dies gilt nicht, wenn die Maßnahme für ihn, seine Familie oder einen anderen Angehörigen seines Haushalts eine Härte bedeuten würde, die auch unter Würdigung der berechtigten Interessen des Vermieters und anderer Mieter in dem Gebäude nicht zu rechtfertigen ist. 3 Dabei sind insbesondere die vorzunehmenden Arbeiten, die baulichen Folgen, vorausgegangene Aufwendungen des Mieters und die zu erwartende Mieterhöhung zu berücksichtigen. 4 Die zu erwartende Mieterhöhung ist nicht als Härte anzusehen, wenn die Mietsache lediglich in einen Zustand versetzt wird, wie er allgemein üblich ist. (3) 1 Bei Maßnahmen nach Absatz 2 Satz 1 hat der Vermieter dem Mieter spätestens drei Monate vor Beginn der Maßnahme deren Art sowie voraussichtlichen Umfang und Beginn, voraussichtliche Dauer und die zu erwartende Mieterhöhung in Textform mitzuteilen. 2 Der Mieter ist berechtigt, bis zum Ablauf des Monats, der auf den Zugang der Mitteilung folgt, außerordentlich zum Ablauf des nächsten Monats zu kündigen. 3 Diese Vorschriften gelten nicht bei Maßnahmen, die nur mit einer unerheblichen Einwirkung auf die vermieteten Räume verbunden sind und nur zu einer unerheblichen Mieterhöhung führen. (4) 1 Aufwendungen, die der Mieter infolge einer Maßnahme nach Absatz 1 oder 2 Satz 1 machen musste, hat der Vermieter in angemessenem Umfang zu ersetzen. 2 Auf Verlangen hat er Vorschuss zu leisten. (5) 1 Eine zum Nachteil des Mieters von den Absätzen 2 bis 4 abweichende Vereinbarung ist unwirksam.",
+                        "title": "§ 554 Duldung von Erhaltungs- und Modernisierungsmaßnahmen"
+                    }
+                ]
+            }
+        ]
+    }
+]
